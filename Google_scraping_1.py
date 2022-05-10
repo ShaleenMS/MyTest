@@ -62,7 +62,7 @@ df1 = pd.read_html(table_html)[0]
 
 df1.to_excel('google_scraping_test.xlsx')
 
-
+print(df1)
 # In[ ]:
 
 
